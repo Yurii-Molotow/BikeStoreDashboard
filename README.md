@@ -14,18 +14,22 @@
 # Excel part of the project
 1. Get data to Excel from csv-file
 2. Change data types (Change comma to period in decimal numeric data types and round them) using Excel Power Query   
+```
 = Table.TransformColumns(#"Измененный тип2",{{"total_spent", each Number.Round(_, 2), type number}})   
 --> for list_price/discount/total_spent
-4. Create pivot tables for out future pivot diagrams and dashboard
+```
+3. Create pivot tables for out future pivot diagrams and dashboard
 Top cities by total income, Top brands, Top produsct, Top categories, Total income by state and Income by months
-5. Create different types of diagrams. Edit and custimize them
-6. Create slicer and connect it to each diagram
-7. Create and custimize interactive (by slicers) dashboard
+4. Create different types of diagrams. Edit and custimize them
+5. Create slicer and connect it to each diagram
+6. Create and custimize interactive (by slicers) dashboard
 
-8. Create feature by using Excel macroses and VBA language:
+7. Create feature by using Excel macroses and VBA language:
 After entering the customer's name and pressing the button, Their order_id and the amount of money they spent is automatically calculated and displayed on the message box
 
 Below is the VBA code for the macros, dashboard and macros using
+ 
+ 
 ![photo_2024-04-25_18-37-08](https://github.com/Yurii-Molotow/BikeStoreDashboard/assets/168109152/d1882ea8-95df-4e72-819e-65a47c86bd40)
 ![photo_2024-04-25_18-37-15](https://github.com/Yurii-Molotow/BikeStoreDashboard/assets/168109152/c45da616-e414-4854-9042-d19dde4cfe09)
 
