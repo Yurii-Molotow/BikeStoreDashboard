@@ -1,9 +1,9 @@
 # BikeStoreDashboard
-**Pet-project that contains creating dashboard for Bikes Store with SQL and Excel**
-bike-store-analysis.ipynb File with SQL queries
-result.csv File that i got to edit and use with Excel
-Dashboard.xlsx Final file with Dashboard
-Dashboard.xlsm Final file that contains VBA macros
+**Pet-project that contains creating dashboard for Bikes Store with SQL and Excel**  
+bike-store-analysis.ipynb File with SQL queries  
+result.csv File that i got to edit and use with Excel  
+Dashboard.xlsx Final file with Dashboard  
+Dashboard.xlsm Final file that contains VBA macros  
 
 # SQL part of the project
 1. Get data from relational database and create connection with database
