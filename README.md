@@ -53,7 +53,7 @@ Sub Кнопка_1()
     
     Set ws = ThisWorkbook.Sheets("Äàí³")
     
-    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+    lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).Row
     
     clientName = ws.Range("B2").Value
     
